@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+body{
+    background: rgb(248, 248, 248);
+}
+
+#article_list
+{
+    background: #fff; 
+    padding: 25px; 
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    /*transform: translateY(-24px);*/
+    box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -webkit-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: lemonchiffon;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+.name{
+    margin: 0 20px 0px 20px;
+}
+
+.sidebar{
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -webkit-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+}
+
+.sidebar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.form-create{
+    background: white;
+    padding: 50px;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.sidebar{
+    /*margin-left: 20px;*/
+    background: #fff;
+}
+
+.form-login
+{
+    width: 40%;
+}
+
+.error{
+    color: red;
+}
+
+.register-form{
+    width: 50%;
+    box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -webkit-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+}
+
+.article-pub{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -webkit-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 5px 0.1px rgb(145, 145, 145);
+}
+
+.circle-profile{
+    width: 200px;
+    height: 200px;
+    background: lemonchiffon;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
